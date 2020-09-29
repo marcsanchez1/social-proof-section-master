@@ -28,6 +28,8 @@ body {
   align-items: center;
   margin: auto;
   padding: 25px;
+  background: url('../images/bg-pattern-top-mobile.svg') no-repeat top left,
+              url('../images/bg-pattern-bottom-mobile.svg') no-repeat bottom right;
 }
 
 header {
@@ -45,6 +47,7 @@ header {
   flex-direction: column;
   color: var(--darkMagenta);
   margin: 0 15px 20px;
+  font-weight: 700;
 }
 .showcase p.description {
   color: var(--darkGray);
