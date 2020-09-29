@@ -13,12 +13,20 @@
 }
 
 body {
-  font-family: 'Spartan', sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-family: "Spartan", sans-serif;
   font-size: 15px;
   line-height: 1.6;
+  height: 100vh;
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
   padding: 25px;
 }
 
@@ -32,43 +40,43 @@ header {
 .showcase {
   margin-bottom: 40px;
 }
-  .showcase h1 {
-    display: flex;
-    flex-direction: column;
-    color: var(--darkMagenta);
-    margin: 0 15px 20px;
-  }
-  .showcase p {
-    color: var(--darkGray);
-    font-size: 16px;
-  }
-  .showcase .ratings {
-    margin-top: ;
-  }
-
+.showcase h1 {
+  display: flex;
+  flex-direction: column;
+  color: var(--darkMagenta);
+  margin: 0 15px 20px;
+}
+.showcase p.description {
+  color: var(--darkGray);
+  font-size: 15px;
+}
 .ratings {
   display: flex;
   flex-direction: column;
 }
-  .ratings #reviews {
-    background: var(--lightGray);
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 10px;
-  }
-  .ratings #reviews:last-child {
-    margin-bottom: 0;
-  }
-  .ratings span.checked {
-    color: orange;
-  }
-  #reviews .stars {
-    margin-bottom: 5px;
-  }
-  #reviews p {
-    color: var(--darkMagenta);
-    font-weight: 700;
-  }
+.ratings #reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--lightGray);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.ratings #reviews:last-child {
+  margin-bottom: 0;
+}
+.ratings span.checked {
+  color: orange;
+}
+#reviews .stars {
+  margin-bottom: 5px;
+}
+#reviews p {
+  color: var(--darkMagenta);
+  font-weight: 700;
+}
 
 .buyer-review {
   display: flex;
@@ -79,25 +87,25 @@ header {
   color: var(--white);
   border-radius: 10px;
 }
-  .buyer-review:last-child {
-    margin-bottom: 0px;
-  }
-  .customer {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-  .customer img {
-    width: 50px;
-    border-radius: 50%;
-    margin-right: 25px;
-  }
-  .customer-info p.name {
-    font-weight: 500;
-  }
-  .customer-info p.type-of-buyer {
-    color: var(--softPink);
-  }
-  .customers-review p {
-    font-weight: 400;
-  }
+.buyer-review:last-child {
+  margin-bottom: 0px;
+}
+.customer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.customer img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+.customer-info p.name {
+  font-weight: 500;
+}
+.customer-info p.type-of-buyer {
+  color: var(--softPink);
+}
+.customers-review p {
+  font-weight: 400;
+}

@@ -1,0 +1,57 @@
+body {
+  /* background: url('../images/bg-pattern-bottom-desktop.svg') no-repeat bottom right; */
+}
+
+.container {
+  box-shadow: 0 0 20px #888;
+  width: 90%;
+  max-width: 1440px;
+  background: url('../images/bg-pattern-top-desktop.svg') no-repeat,
+              url('../images/bg-pattern-bottom-desktop.svg') no-repeat bottom right;
+  padding: 75px;
+}
+
+header {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.showcase {
+  width: 35%;
+  text-align: left;
+}
+  .showcase h1 {
+    margin: 0;
+  }
+
+.ratings #reviews {
+  flex-direction: row;
+  padding: 10px 20px;
+}
+  .ratings {
+    width: 50%;
+  }
+  .ratings .star-reviews {
+    align-self: flex-start;
+  }
+  .ratings .star-guru {
+    align-self: center;
+  }
+  .ratings .star-bestTech {
+    align-self: flex-end;
+  }
+
+  #reviews .stars {
+    margin-right: 25px;
+    margin-bottom: 0;
+  }
+
+.all-reviews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.buyer-review {
+  margin-bottom: 0;
+}
