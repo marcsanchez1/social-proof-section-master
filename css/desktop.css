@@ -1,5 +1,8 @@
 body {
-  /* background: url('../images/bg-pattern-bottom-desktop.svg') no-repeat bottom right; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
 
 .container {
