@@ -9,8 +9,8 @@ body {
   box-shadow: 0 0 20px #888;
   width: 90%;
   max-width: 1440px;
-  background: url('../images/bg-pattern-top-desktop.svg') no-repeat top left,
-              url('../images/bg-pattern-bottom-desktop.svg') no-repeat bottom right;
+  background: url("../images/bg-pattern-top-desktop.svg") no-repeat top left,
+    url("../images/bg-pattern-bottom-desktop.svg") no-repeat bottom right;
   padding: 100px;
 }
 
@@ -23,33 +23,33 @@ header {
   width: 35%;
   text-align: left;
 }
-  .showcase h1 {
-    margin: 0 0 10px;
-    font-size: 2.5rem;
-    line-height: 1;
-  }
+.showcase h1 {
+  margin: 0 0 10px;
+  font-size: 2.5rem;
+  line-height: 1;
+}
 
 .ratings #reviews {
   flex-direction: row;
   padding: 10px 20px;
 }
-  .ratings {
-    width: 50%;
-  }
-  .ratings .star-reviews {
-    align-self: flex-start;
-  }
-  .ratings .star-guru {
-    align-self: center;
-  }
-  .ratings .star-bestTech {
-    align-self: flex-end;
-  }
+.ratings {
+  width: 60%;
+}
+.ratings .star-reviews {
+  align-self: flex-start;
+}
+.ratings .star-guru {
+  align-self: center;
+}
+.ratings .star-bestTech {
+  align-self: flex-end;
+}
 
-  #reviews .stars {
-    margin-right: 25px;
-    margin-bottom: 0;
-  }
+#reviews .stars {
+  margin-right: 25px;
+  margin-bottom: 0;
+}
 
 .all-reviews {
   display: grid;
